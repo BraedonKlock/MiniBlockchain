@@ -12,3 +12,4 @@ public:
 	const std::string& getAddress() const;
 	double getBalance() const;
 }
+
