@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(MiniBlockchain
+project(Ledger
     VERSION 1.0
-    DESCRIPTION "Mini blockchain / ledger simulator in C++"
+    DESCRIPTION "ledger simulator in C++"
     LANGUAGES CXX
 )
 
@@ -18,7 +18,7 @@ else()
 endif()
 
 # Executable
-add_executable(MiniBlockchain
+add_executable(Ledger
 	src/Main.cpp
 
 	# TRANSACTIONS
@@ -36,4 +36,4 @@ add_executable(MiniBlockchain
 )
 
 # Include headers
-target_include_directories(MiniBlockchain PRIVATE includes)
+target_include_directories(Ledger PRIVATE includes)
