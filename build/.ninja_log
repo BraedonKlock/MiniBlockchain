@@ -1,0 +1,16 @@
+# ninja log v5
+1	141	1773595559739236557	CMakeFiles/AccountManagementSystem.dir/src/AccountMenus.cpp.o	249a6bb17c31be00
+0	20	1773595672479443903	build.ninja	3f8294695d0e7b29
+138	172	1773590861384479348	AccountManagementSystem	cbf234f8366d7d2d
+0	143	1773595501795609419	CMakeFiles/AccountManagementSystem.dir/src/main.cpp.o	ca598572f24a44b4
+1	14	1773588395691622546	CMakeFiles/AccountManagementSystem.dir/src/Account.cpp.o	3202514c0b673c4f
+1	17	1773595675165589936	CMakeFiles/AccountManagementSystem.dir/src/accounts/savingsAccount.cpp.o	35103d9c9ccc87e8
+1	17	1773595675165589936	CMakeFiles/AccountManagementSystem.dir/src/accounts/investmentAccount.cpp.o	4ba9d86d10d0d39d
+1	99	1773595748090505851	CMakeFiles/AccountManagementSystem.dir/src/accounts/chequingAccount.cpp.o	df9e37e44268ba0f
+1	95	1773595962266406343	CMakeFiles/AccountManagementSystem.dir/src/Account.cpp.o	3202514c0b673c4f
+95	129	1773595962304870587	AccountManagementSystem	6e8d02ecaa2569c8
+1	103	1773596218599879804	CMakeFiles/AccountManagementSystem.dir/src/Account.cpp.o	3202514c0b673c4f
+1	103	1773596218600835571	CMakeFiles/AccountManagementSystem.dir/src/accounts/chequingAccount.cpp.o	df9e37e44268ba0f
+1	149	1773596218647171301	CMakeFiles/AccountManagementSystem.dir/src/AccountMenus.cpp.o	249a6bb17c31be00
+1	149	1773596218646171286	CMakeFiles/AccountManagementSystem.dir/src/main.cpp.o	ca598572f24a44b4
+149	183	1773596218684340241	AccountManagementSystem	6e8d02ecaa2569c8
