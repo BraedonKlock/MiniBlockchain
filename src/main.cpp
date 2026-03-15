@@ -16,7 +16,7 @@ void menuDisplay()
 	          << ROYAL_PURPLE << "Enter your choice: " << RESET;
 }
 
-void Menu(ChequingAccount& chequingAccount)
+void Menu()
 {
 	int choice;
 	do
@@ -25,7 +25,7 @@ void Menu(ChequingAccount& chequingAccount)
 		std::cin >> choice;
 		switch(choice)
 		{
-			case 1: displayChequingAccount(chequingAccount); break;
+			case 1: displayChequingAccount(); break;
 			case 0: std::cout << "Exiting..\n"; break;
 			default: std::cout << "Invalid choice\n"; break;
 
@@ -34,7 +34,6 @@ void Menu(ChequingAccount& chequingAccount)
 }
 int main() 
 {
-	ChequingAccount chequingAccount;
-	Menu(chequingAccount);
+	Menu();
 	return 0;
 }

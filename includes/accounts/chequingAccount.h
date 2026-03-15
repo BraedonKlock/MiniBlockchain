@@ -10,3 +10,5 @@ public:
 	bool deposit(double amount) override; 
 	bool withdraw(double amount) override;
 };
+
+extern ChequingAccount chequingAccount;

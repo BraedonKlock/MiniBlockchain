@@ -1,5 +1,7 @@
 #include "accounts/chequingAccount.h"
 
+ChequingAccount chequingAccount;
+
 bool ChequingAccount::deposit(double amount)
 {	
 	if(amount <= 0) return false;

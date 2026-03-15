@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-void displayChequingAccount(ChequingAccount& chequingAccount) 
+void displayChequingAccount() 
 {
 
 	int choice;
