@@ -20,10 +20,10 @@ endif()
 # Executable
 add_executable(AccountManagementSystem
 	src/main.cpp
-	src/AccountMenus.cpp
+	src/accountMenus.cpp
 
-	# ACCOUNT
-	src/Account.cpp
+	# ACCOUNTS
+	src/accounts/account.cpp
 	src/accounts/chequingAccount.cpp
 	src/accounts/savingsAccount.cpp
     	src/accounts/investmentAccount.cpp

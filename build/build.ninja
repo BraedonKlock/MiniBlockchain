@@ -51,19 +51,19 @@ build CMakeFiles/AccountManagementSystem.dir/src/main.cpp.o: CXX_COMPILER__Accou
   OBJECT_DIR = CMakeFiles/AccountManagementSystem.dir
   OBJECT_FILE_DIR = CMakeFiles/AccountManagementSystem.dir/src
 
-build CMakeFiles/AccountManagementSystem.dir/src/AccountMenus.cpp.o: CXX_COMPILER__AccountManagementSystem_unscanned_ /home/braedonk/AcademicProjects/Account-Management-System/Account-Management-System/src/AccountMenus.cpp || cmake_object_order_depends_target_AccountManagementSystem
-  DEP_FILE = CMakeFiles/AccountManagementSystem.dir/src/AccountMenus.cpp.o.d
+build CMakeFiles/AccountManagementSystem.dir/src/accountMenus.cpp.o: CXX_COMPILER__AccountManagementSystem_unscanned_ /home/braedonk/AcademicProjects/Account-Management-System/Account-Management-System/src/accountMenus.cpp || cmake_object_order_depends_target_AccountManagementSystem
+  DEP_FILE = CMakeFiles/AccountManagementSystem.dir/src/accountMenus.cpp.o.d
   FLAGS = -std=c++17 -Wall -Wextra -Wpedantic
   INCLUDES = -I/home/braedonk/AcademicProjects/Account-Management-System/Account-Management-System/includes
   OBJECT_DIR = CMakeFiles/AccountManagementSystem.dir
   OBJECT_FILE_DIR = CMakeFiles/AccountManagementSystem.dir/src
 
-build CMakeFiles/AccountManagementSystem.dir/src/Account.cpp.o: CXX_COMPILER__AccountManagementSystem_unscanned_ /home/braedonk/AcademicProjects/Account-Management-System/Account-Management-System/src/Account.cpp || cmake_object_order_depends_target_AccountManagementSystem
-  DEP_FILE = CMakeFiles/AccountManagementSystem.dir/src/Account.cpp.o.d
+build CMakeFiles/AccountManagementSystem.dir/src/accounts/account.cpp.o: CXX_COMPILER__AccountManagementSystem_unscanned_ /home/braedonk/AcademicProjects/Account-Management-System/Account-Management-System/src/accounts/account.cpp || cmake_object_order_depends_target_AccountManagementSystem
+  DEP_FILE = CMakeFiles/AccountManagementSystem.dir/src/accounts/account.cpp.o.d
   FLAGS = -std=c++17 -Wall -Wextra -Wpedantic
   INCLUDES = -I/home/braedonk/AcademicProjects/Account-Management-System/Account-Management-System/includes
   OBJECT_DIR = CMakeFiles/AccountManagementSystem.dir
-  OBJECT_FILE_DIR = CMakeFiles/AccountManagementSystem.dir/src
+  OBJECT_FILE_DIR = CMakeFiles/AccountManagementSystem.dir/src/accounts
 
 build CMakeFiles/AccountManagementSystem.dir/src/accounts/chequingAccount.cpp.o: CXX_COMPILER__AccountManagementSystem_unscanned_ /home/braedonk/AcademicProjects/Account-Management-System/Account-Management-System/src/accounts/chequingAccount.cpp || cmake_object_order_depends_target_AccountManagementSystem
   DEP_FILE = CMakeFiles/AccountManagementSystem.dir/src/accounts/chequingAccount.cpp.o.d
@@ -94,7 +94,7 @@ build CMakeFiles/AccountManagementSystem.dir/src/accounts/investmentAccount.cpp.
 #############################################
 # Link the executable AccountManagementSystem
 
-build AccountManagementSystem: CXX_EXECUTABLE_LINKER__AccountManagementSystem_ CMakeFiles/AccountManagementSystem.dir/src/main.cpp.o CMakeFiles/AccountManagementSystem.dir/src/AccountMenus.cpp.o CMakeFiles/AccountManagementSystem.dir/src/Account.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accounts/chequingAccount.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accounts/savingsAccount.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accounts/investmentAccount.cpp.o
+build AccountManagementSystem: CXX_EXECUTABLE_LINKER__AccountManagementSystem_ CMakeFiles/AccountManagementSystem.dir/src/main.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accountMenus.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accounts/account.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accounts/chequingAccount.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accounts/savingsAccount.cpp.o CMakeFiles/AccountManagementSystem.dir/src/accounts/investmentAccount.cpp.o
   OBJECT_DIR = CMakeFiles/AccountManagementSystem.dir
   POST_BUILD = :
   PRE_LINK = :

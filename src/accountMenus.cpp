@@ -1,12 +1,8 @@
-#include "AccountMenus.h"
+#include "accountMenus.h"
 #include "accounts/chequingAccount.h"
 
 #include <iostream>
 #include <string>
-
-void chequingDepositDisplay(ChequingAccount& chequingAccount) {
-
-}
 
 void displayChequingAccount(ChequingAccount& chequingAccount) 
 {
@@ -31,7 +27,6 @@ void displayChequingAccount(ChequingAccount& chequingAccount)
 	switch (choice)
 	{
 		case 1: break;
-		case 3: chequingDespositDisplay(chequingAccount); break;
 		case 0: std::cout << "Returning\n"; break;
 	}
 	} while (choice != 0);
