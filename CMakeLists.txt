@@ -21,6 +21,8 @@ endif()
 add_executable(AccountManagementSystem
 	src/main.cpp
 	src/accountMenus.cpp
+	src/helper.cpp
+	src/consoleColors.cpp
 
 	# ACCOUNTS
 	src/accounts/account.cpp

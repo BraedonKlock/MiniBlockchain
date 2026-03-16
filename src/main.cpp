@@ -1,19 +1,16 @@
 #include <iostream>
 #include "accountMenus.h"
 #include "accounts/chequingAccount.h"
+#include "consoleColors.h"
 
 void menuDisplay()
 {
-	const std::string RESET        = "\033[0m";
-	const std::string ORANGE       = "\033[38;5;208m";
-	const std::string ROYAL_PURPLE = "\033[38;2;190;149;250m";
-	
-	std::cout << "\n" << ROYAL_PURPLE << "======== Banking App ========" << RESET << "\n"
-	          << ORANGE << "1. " << ROYAL_PURPLE << "Chequing Account" << RESET << "\n"
-	          << ORANGE << "2. " << ROYAL_PURPLE << "Savings Account" << RESET << "\n"
-	          << ORANGE << "3. " << ROYAL_PURPLE << "Investment Account" << RESET << "\n"
-	          << ORANGE << "0. " << ROYAL_PURPLE << "Exit" << RESET << "\n"
-	          << ROYAL_PURPLE << "Enter your choice: " << RESET;
+	std::cout << "\n" << ConsoleColors::ROYAL_PURPLE << "======== Banking App ========" << ConsoleColors::RESET << "\n"
+	          << ConsoleColors::ORANGE << "1. " << ConsoleColors::ROYAL_PURPLE << "Chequing Account" << ConsoleColors::RESET << "\n"
+	          << ConsoleColors::ORANGE << "2. " << ConsoleColors::ROYAL_PURPLE << "Savings Account" << ConsoleColors::RESET << "\n"
+	          << ConsoleColors::ORANGE << "3. " << ConsoleColors::ROYAL_PURPLE << "Investment Account" << ConsoleColors::RESET << "\n"
+	          << ConsoleColors::ORANGE << "0. " << ConsoleColors::ROYAL_PURPLE << "Exit" << ConsoleColors::RESET << "\n"
+	          << ConsoleColors::ROYAL_PURPLE << "Enter your choice: " << ConsoleColors::RESET;
 }
 
 void Menu()
@@ -32,6 +29,7 @@ void Menu()
 		}
 	} while (choice != 0);
 }
+
 int main() 
 {
 	Menu();
